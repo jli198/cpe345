@@ -2,9 +2,9 @@
 
 ECE </br>
 Spring 2022 </br>
-**Instructor:** Cristina Comaniciu
-**Contact Info:** Cristina.Comaniciu@stevens.edu
-**Office Hours:** Thursday 1.00 - 3.00 pm or by appt - Burchard 207 or zoom link
+**Instructor:** Cristina Comaniciu </br>
+**Contact Info:** Cristina.Comaniciu@stevens.edu </br>
+**Office Hours:** Thursday 1.00 - 3.00 pm or by appt - Burchard 207 or zoom link </br>
 
 ## COURSE DESCRIPTION
 
@@ -47,3 +47,101 @@ A *tentative schedule* for the course is as follows (*schedule and assignment de
 | Week 13 | Validation and output analysis | |
 | Week 14 | Final Exam | |
 | Final Exam week | Projects due | |
+
+## COURSE MATERIALS
+
+Textbook(s): Banks, Carson, Nelson & Nicol, "Discrete Event System Simulation," Prentice Hall, any edition - optional </br>
+Other Readings: **OMNET++ manual (download on your computer with OMNET++ installation package, look for omnetpp-6.0/doc/SimulationManual.pdf) - required** </br>
+
+## COURSE REQUIREMENTS
+
+**Classwork:** Class work assignments are hands-on examples and problems that students work individually on in class. Students can consult with each other or with the instructor for the classwork assignments.
+**Homework:** Homework assignments are individual work and will be uploaded on canvas as a doc or pdf file. Software will be uploaded as a single zip file. </br>
+**Exams: Midterm: week 7 - in class** </br>
+**Final - last week of classes - in class** </br>
+**Project: Due at the final exam time - oral project presentations + short paper submission**
+
+## TECHNOLOGY REQUIREMENTS
+
+### Baseline technical skills necessary for online courses
+
+* Basic computer and web-browsing skills
+* Navigating Canvas
+
+### Technology skills necessary for this specific course
+
+* Basic knowledge of C++
+* Live web conference using Zoom
+* Recording a slide presentation with audio narration
+
+### Required Equipment
+
+* Computer: current MAC (OS X) or PC (Windows 7+) with high-speed internet connection
+
+### Required Software
+
+* Current or first previous major release of Chrome, Firefox, Edge, or Safari browser
+* Microsoft Word
+* Microsoft Excel
+* Microsoft PowerPoint
+* [OMNET++](https://omnetpp.org/) (free to download on your computer)
+
+## GRADING PROCEDURES
+
+Grades will be based on: </br>
+Participation (Attendance): 5% </br>
+Classwork:                  15% </br>
+Homework:                   15% </br>
+Exam 1:                     20% </br>
+Exam 2:                     20% </br>
+Project:                    25% </br>
+
+### Late Policy
+
+Homeworks will be accepted up to 1 day late for 90% of credit. </br>
+If a lecture is missed, the student may make up classwork associated with the missed lecture with the approval of the instructor. This will be granted for sickness, emergency events, job events, etc.
+
+## Academic Integrity
+
+### Undergraduate Honor System
+
+Enrollment into the undergraduate class of Stevens Institute of Technology signifies a student's commitment to the Honor System. Accordingly, the provisions of the Stevens Honor System apply to all undergraduate students in coursework and Honor Board proceedings. It is the responsibility of each student to become acquainted with and to uphold the ideals set forth in the Honor System Constitution. More information about the Honor System including the constitution, bylaws, investigative procedures, and the penalty matrix can be found [online.](http://web.stevens.edu/honor/) </br>
+
+The following pledge shall be written in full and signed by every student on all submitted work(including, but not limited to, homework, projects, lab reports, code, quizzes and exams) that is assigned by the course instructor. No work shall be graded unless the pledge is written in full and signed. </br>
+
+***"I pledge my honor that I have abided by the Stevens Honor System."*** </br>
+*Reporting Honor System Violations*
+Students who believe a violation of the Honor System has been commited should report it within ten business days of the suspected violation. Students should have the option to remain anonymous and can report violations [online.](www.stevens.edu/honor) </br>
+
+## EXAM CONDITIONS
+
+Exams will be in class </br>
+Exams are closed book. One cheat sheet with formulas (double sided) is allowed. Calculators are allowed. </br>
+
+## LEARNING ACCOMMODATIONS
+
+Stevens Institute of Technology is dedicated to providing appropriate accommodations to students with documented disabilities. The Office of Disability Services (ODS) works with undergraduate and graduate students with learning disabilities, attention deficit-hyperactivity disorders, physical disabilities, sensory impairments, psychiatric disorders, and other such disabilities in order to help students achieve their academic and personal potential. They facilitate equal access to the educational programs and opportunities offered at Stevens and coordinate reasonable accommodations for eligible students. These services are designed to encourage independence and self-advocacy with support from the ODS staff. The ODS staff will facilitate the provision ofaccommodations on a case-by-case basis. </br>
+
+For more information about Disability Services and the process to receive accommodations, [visit.](https://www.stevens.edu/office-disability-services) If you have any questions please contact: Phillip Gehman, the Director of Disability Services Coordinator at Stevens Institute of Technology at
+pgehman@stevens.edu or by phone 201-216-3748. </br>
+**Disability Services Confidentialiy Policy** </br>
+Student Disability Files are kept separate from academic files and are stored in a secure locationvwithin the Office of Disability Services. The Family Educational Rights Privacy Act (FERPA, 20 U.S.C. 1232g; 34CFR, Part 99) regulates disclosure of disability documentation and records maintained by Stevens Disability Services. According to this act, prior written consent by the student is required before our Disability Services office may release disability documentation or records to anyone. An exception is made in unusual circumstances, such as the case of health and safety emergencies.
+
+## INCLUSIVITY
+
+**Name and Pronoun Usage** </br>
+As this course includes group work and class discussion, it is vitally important for us to create an educational environment of inclusion and mutual respect. This includes the ability for all students to have their chosen gender pronoun(s) and chosen name affirmed. If the class roster does not align with your name and/or pronouns, please inform the instructor of the necessary changes. </br>
+**Inclusion Statement**
+Stevens Institute of Technology believes that diversity and inclusiveness are essential to excellence in academic discourse and innovation. In this class, the perspective of people of all races, ethnicities, gender expressions and gender identities, religions, sexual orientations, disabilities, socioeconomic backgrounds, and nationalities will be respected and viewed as a resource and benefit throughout the semester. Suggestions to further diversify class materials and assignments are encouraged. If any course meetings conflict with your religious events, please do not hesitate to reach out to yourinstructor to make alternative arrangements. </br>
+You are expected to treat your instructor and all other participants in the course with courtesy and respect. Disrespectful conduct and harassing statements will not be tolerated and may result in disciplinary actions.
+
+## MENTAL HEALTH RESOURCES
+
+Part of being successful in the classroom involves a focus on your whole self, including your mental health. While you are at Stevens, there are many resources to promote and support mental health. The Office of Counseling and Psychological Services (CAPS) offers free and confidential services to all enrolled students who are struggling to cope with personal issues (e.g., difficulty adjusting to college or trouble managing stress) or psychological difficulties (e.g., anxiety and depression). CAPS is open daily from 9:00 am – 5:00 pm M-F. Evening hours are available by appointment in the Fall /Spring semesters and up-to-date information regarding the availability of evening appointments can be found by [visiting.](http://www.stevens.edu/CAPS) To schedule anappointment, call 201-216-5177. </br>
+Due to the pandemic, in-person appointments may be limited until further notice. Up-to-date information about the availability of in-person services can be found [here.](http://www.stevens.edu/CAPS) Teletherapy (therapy via secure video platform) is available to registered students physically located in the states of New York or New Jersey. Students located outside of NY / NJ are encouraged to pursue local treatment through their personal health insurance. To learn more about the process of finding a therapist please visit the CAPS webpage on
+Seeking Help [Off-Campus.](https://www.stevens.edu/directory/counseling-and-psychologicalservices/
+seeking-help-campus)
+
+## EMERGENCY INFORMATION
+
+In the event of an urgent or emergent concern about the safety of yourself or someone else in the Stevens community, please immediately call the Stevens Campus Police at 201-216-5105 or on their emergency line at 201-216-3911. These phone lines are staffed 24/7, year round. For students who do not reside near the campus and require emergency support, please contact your local emergency response providers at 911 or via your local police precinct. Other 24/7 national resources for students dealing with mental health crises include the National Suicide Prevention Lifeline (1-800-273-8255) and the Crisis Text Line (text “Home” to 741-741). If you are concerned about the wellbeing of another Stevens student, and the matter is not urgent or time sensitive, please email the CARE Team at care@stevens.edu. A member of the CARE Team will respond to your concern as soon as possible.
