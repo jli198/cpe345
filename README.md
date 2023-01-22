@@ -1,5 +1,7 @@
 # EE/CPE 345 Modeling and Simulation
 
+![Stevens Logo](stevenslogo.png)
+
 ECE </br>
 Spring 2022 </br>
 **Instructor:** Cristina Comaniciu </br>
