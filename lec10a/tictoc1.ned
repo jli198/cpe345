@@ -4,6 +4,7 @@ simple Txc1
     input in;
     output out;
 }
+//
 // Two instances (tic and toc) of Txc1 connected both ways.
 // Tic and toc will pass messages to one another.
 //
