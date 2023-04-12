@@ -1,0 +1,24 @@
+version 2
+...................
+scalar Queueing_network.gen   created:count 1
+attr interpolationmode none
+attr title "the number of jobs created,count"
+scalar Queueing_network.fifo    busy:timeavg 0.84859312611028 // server utilization
+attr interpolationmode sample-hold
+attr title "server busy state, timeavg"
+scalar Queueing_network.fifo    queueingTime:mean 4.2206955149989 // average delay in queue
+attr interpolation mode none
+attr title "queueing time at dequeue, mean"
+attr unit s
+scalar Queueing_network.fifo    queueingTime:max 18.678545211263
+attr interpolationmode none
+attr title "queueing time at dequeue, max"
+attr unit s
+scalar Queueing_network.fifo    queueingLength:timeavg 3.5129940337002  // av. queue length
+attr interpolationmode sample-hold
+attr title "queue length, timeavg"
+scalar Queueing_network.fifo    queueLength:max 17
+attr interpolationmode sample-hold
+attr title "queue length, max"
+scalar Queueing_network.fifo    dropped.count 0 // # of pkts dropped -> if finite capacity
+attr interpolationmode none
