@@ -8,8 +8,8 @@ using namespace omnetpp;
 class Source : public cSimpleModule
 {
   private:
-   simtime_t timeout;
-   cMessage *timeoutEvent;
+   simtime_t timeout; // timeout for source
+   cMessage *timeoutEvent;  // holds pointer to timeout self-message
 
   public:
     Source();
@@ -23,60 +23,65 @@ class Source : public cSimpleModule
 Define_Module(Source);
 
 Source::Source(){
-    timeoutEvent = nullptr;
+  timeoutEvent = nullptr;
 }
 
 Source::~Source(){
-    cancelAndDelete(timeoutEvent);
+  cancelAndDelete(timeoutEvent);
 }
 
 void Source::initialize()
 {
-    timeout = 1.0;
-    timeoutEvent = new cMessage("timeoutEvent");
-    EV<<"Initial message sent";
-    cMessage *msg = new cMessage("packet");
-    send(msg, "out");
-    scheduleAt(simTime()+timeout, timeoutEvent);
+  timeout = 1.0;  //will initialize timeout to 1.0
+  timeoutEvent = new cMessage("timeoutEvent");  //schedule first timeout event for first packet
+  
+  // Generate and send initial message
+  EV << "Initial message sent";
+  cMessage *msg = new cMessage("packet");
+  send(msg, "out");
+  scheduleAt(simTime()+timeout, timeoutEvent);
 }
 
 void Source::handleMessage(cMessage *msg){
-    if (msg== timeoutEvent){
-        EV<<"timer expired";
-        cMessage *msg = new cMessage("packet");
-        send(msg, "out");
-        scheduleAt(simTime()+timeout, timeoutEvent);
+  if (msg== timeoutEvent){
+    // If receive timeout event, no ACK was received in time and timer expired - need to resend
+    EV<<"timer expired";
+    cMessage *msg = new cMessage("packet");
+    send(msg, "out");
+    scheduleAt(simTime()+timeout, timeoutEvent);
+  }
+  else {  // ACK received
+          // delete received message and cancel timeout event
+    EV<<"received ACK";
+    cancelEvent(timeoutEvent);
+    delete msg;
 
-    }
-    else {
-        EV<<"received ACK";
-        cancelEvent(timeoutEvent);
-        cMessage *msg = new cMessage("packet");
-        send(msg, "out");
-        scheduleAt(simTime()+timeout, timeoutEvent);
-    }
-
+    // Send another packet
+    cMessage *msg = new cMessage("packet");
+    send(msg, "out");
+    scheduleAt(simTime()+timeout, timeoutEvent);
+  }
 }
 
 class Destination : public cSimpleModule
 {
 protected:
-    virtual void handleMessage(cMessage *msg) override;
-
+  virtual void handleMessage(cMessage *msg) override;
 };
 
 Define_Module(Destination);
 
 void Destination::handleMessage (cMessage *msg){
-    double probability = par("prob");
-    if ( uniform(0,1) < probability){
-        EV<<"message lost \n";
-        delete msg;
-    }
-    else{
-            EV<<"sending back as ACK \n";
-          send(msg, "out");
-        }
+  double probability = par("prob"); // gets prob value from .ned
+  if (uniform(0,1) < probability){
+    EV << "message lost \n";
+    bubble("message lost"); // use animation
+    delete msg;
+  }
+  else{
+    EV<<"sending back as ACK \n";
+    send(msg, "out");
+  }
 }
 
 

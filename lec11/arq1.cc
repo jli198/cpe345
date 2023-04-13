@@ -82,7 +82,7 @@ void Destination::handleMessage (cMessage *msg)
     delete msg;
   }
   else {
-    EV<<"sending back as ACK \n";
+    EV << "sending back as ACK \n";
     send(msg, "out");
   }
 }
